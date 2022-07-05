@@ -1,0 +1,14 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Jakob Wells
+	email = jakob@duck.com
+[core]
+	excludesfile = /Users/cubby/.gitignore_global
+	editor = code --wait
+	hooksPath = /Users/cubby/.git/hooks
+[commit]
+	template = /Users/cubby/.stCommitMsg

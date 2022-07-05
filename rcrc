@@ -1,0 +1,4 @@
+DOTFILES_DIRS=$HOME/code/personal/dotfiles
+EXCLUDES="README.md Brewfile Brewfile.casks Brewfile.mas install.sh"
+TAGS="git"
+UNDOTTED="Library"

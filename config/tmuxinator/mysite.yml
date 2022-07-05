@@ -1,0 +1,17 @@
+# /Users/cubby/.config/tmuxinator/mysite.yml
+
+name: mysite
+root: ~/code/mysite
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - nvim
+  - shell:
+      layout: even-horizontal
+      panes:
+        - source env/bin/activate; python manage.py runserver
+        - source env/bin/activate
+        # - source env/bin/activate; python manage.py shell
+        # - psql
+  - lazygit: lazygit

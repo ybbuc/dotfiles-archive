@@ -1,0 +1,44 @@
+{
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "workbench.startupEditor": "newUntitledFile",
+  "python.pythonPath": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+  "telemetry.telemetryLevel": "off",
+  "editor.inlineSuggest.enabled": true,
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "[python]": {
+    "editor.rulers": [79],
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": false,
+    "python": true
+  },
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "workbench.editor.untitled.hint": "hidden",
+  "python.linting.pylintPath": "flake8",
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "[django-html]": {
+    "editor.formatOnSave": false
+  },
+  "python.defaultInterpreterPath": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+  "editor.minimap.enabled": false,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "redhat.telemetry.enabled": false,
+  "editor.fontLigatures": false,
+  "breadcrumbs.enabled": false,
+  "workbench.colorTheme": "Monokai Pro",
+  "editor.fontSize": 13
+}
