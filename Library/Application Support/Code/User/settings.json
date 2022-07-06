@@ -39,6 +39,7 @@
   "redhat.telemetry.enabled": false,
   "editor.fontLigatures": false,
   "breadcrumbs.enabled": false,
+  "editor.fontSize": 13,
   "workbench.colorTheme": "Monokai Pro",
-  "editor.fontSize": 13
+  "editor.wordWrap": "on"
 }
