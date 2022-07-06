@@ -1,0 +1,10 @@
+# /Users/cubby/.config/tmuxinator/dotfilesbu8.yml
+
+name: dotfiles
+root: ~/code/personal/dotfiles
+windows:
+  - nvim:
+      layout: even-horizontal 
+      panes:
+        - nvim -O ~/code/personal/dotfiles/config/nvim/init.lua ~/code/personal/dotfiles/config/nvim/lua/plugins.lua
+  - lazygit: lazygit
