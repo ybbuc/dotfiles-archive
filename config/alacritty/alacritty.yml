@@ -1,0 +1,43 @@
+window:
+  columns: 0
+  lines: 0
+  padding:
+    x: 5
+    y: 5
+  decorations: full
+  title: Alacritty
+  dynamic_title: true
+
+font:
+  normal:
+    family: FiraCode Nerd Font
+  size: 13.0
+
+colors:
+  primary:
+   background: '#1e1e2e'
+   foreground: '#cdd6f4'
+  cursor:
+   text: '#1e1e2e'
+   cursor: '#cdd6f4'
+  selection:
+   text: '#1e1e2e'
+   background: '#6c7086'
+  normal:
+   black:   '#1e1e2e'
+   red:     '#f38ba8'
+   green:   '#a6e3a1'
+   yellow:  '#f9e2af'
+   blue:    '#89b4fa'
+   magenta: '#cba6f7'
+   cyan:    '#89dceb'
+   white:   '#cdd6f4'
+  bright:
+   black:   '#46475a'
+   red:     '#f38ba8'
+   green:   '#a6e3a1'
+   yellow:  '#f9e2af'
+   blue:    '#89b4fa'
+   magenta: '#cba6f7'
+   cyan:    '#89dceb'
+   white:   '#cdd6f4'

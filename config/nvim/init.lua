@@ -12,6 +12,11 @@ vim.cmd[[filetype plugin on]]
 vim.cmd[[syntax on]]
 vim.cmd[[autocmd User TelescopePreviewerLoaded setlocal number]] -- Show line numbers in telescope previewer
 
+vim.cmd[[let g:tex_flavor='latex']]
+vim.cmd[[let g:vimtex_view_method = 'skim']]
+vim.cmd[[let g:vimtex_view_skim_sync = 1]]
+vim.cmd[[let g:vimtex_view_skim_activate = 1]]
+
 
 require("indent_blankline").setup {
   -- show_current_context = true,
@@ -121,6 +126,10 @@ for _, lsp in ipairs(servers) do
     -- on_attach = my_custom_on_attach,
   }))
 end
+
+require('coq_3p') {
+  { src = "vimtex", short_name = "vTEX" },
+}
 
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
