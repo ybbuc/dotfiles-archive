@@ -9,7 +9,7 @@ brew "mas" # Mac App Store
 brew "neovim"
 brew "postgresql"
 brew "redis"
-brew "ripgreb" # recursively search directorries for a regex pattern while respectin gitignore
+brew "ripgreb" # recursively search directories for a regex pattern while respectin gitignore
 brew "speedtest-cli"
 brew "sqlite"
 brew "youtube-dl"
