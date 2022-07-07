@@ -26,7 +26,7 @@ return require('packer').startup(function()
     use {'catppuccin/nvim', as = 'catppuccin'}
     use 'mbbill/undotree'
     use 'tpop/vim-abolish'
-    use 'tpope/vim-commentary'
+    use 'numToStr/Comment.nvim'
     use 'tpope/vim-fugitive'
     use 'tpope/vim-surround'
     use 'matze/vim-move'
