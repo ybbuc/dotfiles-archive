@@ -40,6 +40,12 @@ require("nvim-lsp-installer").setup({
   }
 })
 
+require('bufferline').setup{
+  icons = false,
+  closable = false,
+  clickable = false,
+  icon_pinned = '車',
+}
 require('colorizer').setup()
 require('hop').setup()
 require('toggleterm').setup()

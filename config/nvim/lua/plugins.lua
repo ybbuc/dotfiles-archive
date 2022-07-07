@@ -44,4 +44,5 @@ return require('packer').startup(function()
     use 'folke/which-key.nvim'
     use 'williamboman/nvim-lsp-installer'
     use 'lervag/vimtex'
+    use 'romgrk/barbar.nvim'
 end)
