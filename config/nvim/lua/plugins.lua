@@ -16,6 +16,7 @@ return require('packer').startup(function()
     use 'nvim-telescope/telescope-file-browser.nvim'  -- File browser extension for telescope.nvim
     use 'nvim-telescope/telescope-symbols.nvim'       -- Symbol browser extension for telescope.nvim
     use 'nvim-telescope/telescope-project.nvim'       -- Project browser extension for telescope.nvim
+    use 'nvim-telescope/telescope-fzf-native.nvim'    -- FZF sorter extension for telescope.nvim
     use 'nvim-lualine/lualine.nvim'  -- statusline
     use 'arkav/lualine-lsp-progress'  -- See progress of LSP servers initializing
     use 'dense-analysis/ale'  -- linting
