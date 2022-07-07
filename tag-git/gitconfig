@@ -9,6 +9,7 @@
 [core]
 	excludesfile = /Users/cubby/.gitignore_global
 	editor = code --wait
+    pager = delta
 	hooksPath = /Users/cubby/.git/hooks
 [commit]
 	template = /Users/cubby/.stCommitMsg
