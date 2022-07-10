@@ -17,6 +17,9 @@ vim.cmd[[let g:vimtex_view_method = 'skim']]
 vim.cmd[[let g:vimtex_view_skim_sync = 1]]
 vim.cmd[[let g:vimtex_view_skim_activate = 1]]
 
+vim.cmd[[let g:undotree_WindowLayout = 2]]
+vim.cmd[[let g:undotree_ShortIndicators = 1]]
+vim.cmd[[let g:undotree_SetFocusWhenToggle = 1]]
 
 require("indent_blankline").setup {
   -- show_current_context = true,
@@ -28,7 +31,6 @@ require("better_escape").setup {
   mapping = {"jk", "jj", "kj"},
   clear_empty_lines = false, -- clear line after escaping if there is only whitespace
 }
-
 require("nvim-lsp-installer").setup({
   automatic_installation = true, -- automatically detect which servers to install (based on which servers are set up via lspconfig)
   ui = {

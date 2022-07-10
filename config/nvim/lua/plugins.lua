@@ -24,10 +24,10 @@ return require('packer').startup(function()
     use 'lewis6991/gitsigns.nvim'
     use 'max397574/better-escape.nvim'
     use {'catppuccin/nvim', as = 'catppuccin'}
-    use 'mbbill/undotree'
     use 'tpop/vim-abolish'
     use 'numToStr/Comment.nvim'
     use 'tpope/vim-fugitive'
+    use 'mbbill/undotree'
     use 'tpope/vim-surround'
     use 'matze/vim-move'
     use {'norcalli/nvim-colorizer.lua', as = 'colorizer'}
