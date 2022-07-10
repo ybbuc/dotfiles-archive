@@ -16,6 +16,8 @@ nnoremap <C-H> <C-W><C-H>
 " Buffers
 nnoremap <silent> <A-,> <Cmd>BufferPrevious<CR>
 nnoremap <silent> <A-.> <Cmd>BufferNext<CR>
+nnoremap <silent> <A-<> <Cmd>BufferMovePrevious<CR>
+nnoremap <silent> <A->> <Cmd>BufferMoveNext<CR>
 nnoremap <silent> <A-1> <Cmd>BufferGoto 1<CR>
 nnoremap <silent> <A-2> <Cmd>BufferGoto 2<CR>
 nnoremap <silent> <A-3> <Cmd>BufferGoto 3<CR>
