@@ -20,13 +20,10 @@ return require('packer').startup(function()
     use 'nvim-lualine/lualine.nvim'  -- statusline
     use 'arkav/lualine-lsp-progress'  -- See progress of LSP servers initializing
     use 'folke/trouble.nvim'
-    -- use 'github/copilot.vim' 
     use 'lewis6991/gitsigns.nvim'
     use 'max397574/better-escape.nvim'
     use {'catppuccin/nvim', as = 'catppuccin'}
-    use 'tpop/vim-abolish'
     use 'numToStr/Comment.nvim'
-    use 'tpope/vim-fugitive'
     use 'mbbill/undotree'
     use 'tpope/vim-surround'
     use 'matze/vim-move'
