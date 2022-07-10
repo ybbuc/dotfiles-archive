@@ -19,7 +19,6 @@ return require('packer').startup(function()
     use 'nvim-telescope/telescope-fzf-native.nvim'    -- FZF sorter extension for telescope.nvim
     use 'nvim-lualine/lualine.nvim'  -- statusline
     use 'arkav/lualine-lsp-progress'  -- See progress of LSP servers initializing
-    use 'dense-analysis/ale'  -- linting
     use 'folke/trouble.nvim'
     -- use 'github/copilot.vim' 
     use 'lewis6991/gitsigns.nvim'
