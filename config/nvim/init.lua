@@ -43,6 +43,7 @@ require("nvim-lsp-installer").setup({
 })
 
 require('bufferline').setup{
+  animation = false,
   icons = false,
   closable = false,
   clickable = false,
@@ -84,7 +85,6 @@ require('telescope').load_extension('file_browser', 'fzf')
 require('trouble').setup {
   icons = false
 }
-
 require("nvim-treesitter.configs").setup {
   rainbow = {
     enable = true,
