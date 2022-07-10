@@ -21,6 +21,7 @@ return require('packer').startup(function()
     use 'romgrk/barbar.nvim'
     use 'nvim-lualine/lualine.nvim'  -- statusline
     use 'arkav/lualine-lsp-progress'  -- See progress of LSP servers initializing
+    use 'mfussenegger/nvim-lint' -- linting
     use 'folke/trouble.nvim'
     use 'lewis6991/gitsigns.nvim'
     use 'max397574/better-escape.nvim'
@@ -28,8 +29,10 @@ return require('packer').startup(function()
     use {'catppuccin/nvim', as = 'catppuccin'}
     use 'numToStr/Comment.nvim'
     use 'mbbill/undotree'
+    use 'tpope/vim-repeat'
     use 'tpope/vim-surround'
     use 'matze/vim-move'
+    use 'ludovicchabant/vim-gutentags'
     use 'lervag/vimtex'
     use {
       'phaazon/hop.nvim',
