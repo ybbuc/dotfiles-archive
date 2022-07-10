@@ -31,7 +31,6 @@ return require('packer').startup(function()
     use 'tpope/vim-fugitive'
     use 'tpope/vim-surround'
     use 'matze/vim-move'
-    use 'akinsho/toggleterm.nvim'
     use {'norcalli/nvim-colorizer.lua', as = 'colorizer'}
     use {
       'phaazon/hop.nvim',

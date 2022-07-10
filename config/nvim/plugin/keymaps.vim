@@ -59,5 +59,3 @@ map('n', '<leader>td', gs.toggle_deleted)
 
 nnoremap <leader>wk <cmd>WhichKey<cr>
 
-nnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>
-inoremap <silent><c-t> <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>
