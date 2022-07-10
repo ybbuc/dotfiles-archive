@@ -1,0 +1,7 @@
+# /Users/cubby/.config/tmuxinator/calculus.yml
+
+name: calculus 
+root: ~/code/work/calculus
+windows:
+  - nvim: nvim
+  - lazygit: lazygit
