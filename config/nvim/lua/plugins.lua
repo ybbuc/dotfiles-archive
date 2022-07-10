@@ -30,7 +30,7 @@ return require('packer').startup(function()
     use {'norcalli/nvim-colorizer.lua', as = 'colorizer'}
     use {
       'phaazon/hop.nvim',
-        branch = 'v1',
+        branch = 'v2',
         config = function()
         require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
       end
