@@ -1,9 +1,9 @@
 # /Users/cubby/.config/tmuxinator/mysite.yml
 
 name: mysite
-root: ~/code/mysite
+root: ~/code/personal/mysite
 windows:
-  - editor:
+  - nvim:
       layout: main-vertical
       panes:
         - nvim
