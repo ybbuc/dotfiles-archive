@@ -4,12 +4,12 @@ require('impatient')
 vim.g.mapleader = " "   -- Map <leader> key to space
 
 -- Catppuccin colors
-vim.g.catppuccin_flavour = 'mocha'
-vim.cmd[[colorscheme catppuccin]]
+vim.cmd[[set termguicolors]]
+vim.cmd[[colorscheme dracula]]
 
 vim.cmd[[set clipboard^=unnamed,unnamedplus]]
-vim.cmd[[filetype plugin on]]
-vim.cmd[[syntax on]]
+vim.cmd[[filetype plugin indent on]]
+-- vim.cmd[[syntax on]]
 vim.cmd[[autocmd User TelescopePreviewerLoaded setlocal number]] -- Show line numbers in telescope previewer
 
 vim.cmd[[let g:tex_flavor='latex']]

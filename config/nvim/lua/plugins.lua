@@ -27,6 +27,7 @@ return require('packer').startup(function()
     use 'max397574/better-escape.nvim'
     use {'norcalli/nvim-colorizer.lua', as = 'colorizer'}
     use {'catppuccin/nvim', as = 'catppuccin'}
+    use 'Mofiqul/dracula.nvim'
     use 'numToStr/Comment.nvim'
     use 'mbbill/undotree'
     use 'tpope/vim-repeat'
