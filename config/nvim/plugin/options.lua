@@ -1,7 +1,6 @@
 local opt = vim.opt
 
 opt.undofile = true -- Enable undo files
-opt.mouse = "n"     -- Enable mouse in NORMAL mode
 
 -- Ignore compiled files
 opt.wildignore = "__pycache__"

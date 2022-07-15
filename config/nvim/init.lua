@@ -8,6 +8,7 @@ vim.cmd[[set termguicolors]]
 vim.cmd[[colorscheme dracula]]
 
 vim.cmd[[set clipboard^=unnamed,unnamedplus]]
+vim.cmd[[set mouse=]] -- Disable mouse
 vim.cmd[[filetype plugin indent on]]
 vim.cmd[[set viewoptions=cursor,folds,slash,unix]]
 -- vim.cmd[[syntax on]]
