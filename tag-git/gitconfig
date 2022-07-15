@@ -13,3 +13,5 @@
 	hooksPath = /Users/cubby/.git/hooks
 [commit]
 	template = /Users/cubby/.stCommitMsg
+[delta]
+    line-numbers = true
