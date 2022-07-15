@@ -3,12 +3,11 @@ require('impatient')
 
 vim.g.mapleader = " "   -- Map <leader> key to space
 
--- Catppuccin colors
 vim.cmd[[set termguicolors]]
 vim.cmd[[colorscheme dracula]]
 
-vim.cmd[[set clipboard^=unnamed,unnamedplus]]
 vim.cmd[[set mouse=]] -- Disable mouse
+vim.cmd[[set clipboard^=unnamed,unnamedplus]] -- Share clipboard with OS
 vim.cmd[[filetype plugin indent on]]
 vim.cmd[[set viewoptions=cursor,folds,slash,unix]]
 -- vim.cmd[[syntax on]]
@@ -23,10 +22,7 @@ vim.cmd[[let g:undotree_WindowLayout = 2]]
 vim.cmd[[let g:undotree_ShortIndicators = 1]]
 vim.cmd[[let g:undotree_SetFocusWhenToggle = 1]]
 
-require("indent_blankline").setup {
-  -- show_current_context = true,
-  -- show_current_context_start = true,
-}
+require("indent_blankline").setup()
 require('Comment').setup()
 
 require("better_escape").setup {
@@ -46,31 +42,22 @@ require("nvim-lsp-installer").setup({
 
 require('bufferline').setup{
   animation = false,
-  icons = false,
   closable = false,
   clickable = false,
   icon_pinned = '車',
 }
 require('colorizer').setup()
+require('gitsigns').setup()
 require('hop').setup()
-require('toggleterm').setup()
 require('which-key').setup{
   plugins = {
 
   }
 }
-local wk = require("which-key")
 require('telescope').setup {
   defaults = {
-      layout_strategy = 'flex',
-      mappings = {
-        i = {
-          -- map actions.which_key to <C-h> (default: <C-/>)
-          -- actions.which_key shows the mappings for your picker
-          ["<C-h>"] = "which_key"
-        }
-      }
-  },
+      layout_strategy = 'vertical',
+      },
   extensions = {
     file_browser = {
       -- disables netrw and use telescope-file-browser in its place
@@ -79,7 +66,7 @@ require('telescope').setup {
       dir_icon = ""
       -- sorting_strategy = 'ascending',
     },
-  },
+  }
 }
 
 require('telescope').load_extension('file_browser', 'fzf')
@@ -87,6 +74,7 @@ require('telescope').load_extension('file_browser', 'fzf')
 require('trouble').setup {
   icons = false
 }
+
 require("nvim-treesitter.configs").setup {
   rainbow = {
     enable = true,
@@ -123,8 +111,6 @@ require('lualine').setup {
   tabline = {},
   extensions = {}
 }
-
-require('gitsigns').setup()
 
 -- coq
 local lspconfig = require('lspconfig')
