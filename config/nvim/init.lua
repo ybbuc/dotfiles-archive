@@ -9,6 +9,7 @@ vim.cmd[[colorscheme dracula]]
 
 vim.cmd[[set clipboard^=unnamed,unnamedplus]]
 vim.cmd[[filetype plugin indent on]]
+vim.cmd[[set viewoptions=cursor,folds,slash,unix]]
 -- vim.cmd[[syntax on]]
 vim.cmd[[autocmd User TelescopePreviewerLoaded setlocal number]] -- Show line numbers in telescope previewer
 
