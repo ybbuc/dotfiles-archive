@@ -1,5 +1,3 @@
-" Remap ; to : for the sake of convenience
-nnoremap ; :
 
 " Disable arrow keys
 noremap <Up> <Nop>
@@ -30,6 +28,36 @@ nnoremap <silent> <A-9> <cmd>BufferGoto 9<cr>
 nnoremap <silent> <A-0> <cmd>BufferLast<cr>
 nnoremap <silent> <A-c> <cmd>BufferClose<cr>
 
+" hop.nvim
+nnoremap <leader>hl <cmd>HopLineStart<cr>
+nnoremap <leader>hc <cmd>HopChar2<cr>
+
+" vimtex
+nnoremap <leader>li <cmd>VimtexInfo<cr>
+nnoremap <leader>lI <cmd>VimtexInfo!<cr>
+nnoremap <leader>lt <cmd>VimtexTocOpen<cr>
+nnoremap <leader>lT <cmd>VimtexTocToggle<cr>
+nnoremap <leader>lq <cmd>VimtexLog<cr>
+nnoremap <leader>lv <cmd>VimtexView<cr>
+nnoremap <leader>ll <cmd>VimtexCompile<cr>
+nnoremap <leader>lL <cmd>VimtexCompileSelected<cr>
+nnoremap <leader>lk <cmd>VimtexStop<cr>
+nnoremap <leader>lK <cmd>VimtexStopAll<cr>
+nnoremap <leader>le <cmd>VimtexErrors<cr>
+nnoremap <leader>lo <cmd>VimtexCompileOutput<cr>
+nnoremap <leader>lg <cmd>VimtexStatus<cr>
+nnoremap <leader>lG <cmd>VimtexStatus!<cr>
+nnoremap <leader>lc <cmd>VimtexClean<cr>
+nnoremap <leader>lC <cmd>VimtexClean!<cr>
+nnoremap <leader>lm <cmd>VimtexImapsList<cr>
+nnoremap <leader>lx <cmd>VimtexReload<cr>
+nnoremap <leader>lX <cmd>VimtexReloadState<cr>
+nnoremap <leader>ls <cmd>VimtexToggleMain<cr>
+nnoremap <leader>la <cmd>VimtexContextMenu<cr>
+
+" Run python script
+nnoremap <leader>r <cmd>!python3 %<cr>
+
 " Toggle undo tree
 nnoremap <leader>ut :UndotreeToggle<cr>
 
@@ -38,7 +66,7 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope file_browser<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-nnoremap <leader>fs <cmd>Telescope symbols<cr>
+nnoremap <leader>fr <cmd>Telescope git_files<cr>
 
 " Trouble
 nnoremap <leader>xx <cmd>TroubleToggle<cr>
