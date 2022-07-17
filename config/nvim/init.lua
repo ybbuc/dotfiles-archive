@@ -22,6 +22,8 @@ vim.cmd[[let g:undotree_WindowLayout = 2]]
 vim.cmd[[let g:undotree_ShortIndicators = 1]]
 vim.cmd[[let g:undotree_SetFocusWhenToggle = 1]]
 
+vim.cmd[[autocmd BufRead,BufNewFile *.tex setlocal spell]]
+
 require("indent_blankline").setup()
 require('Comment').setup()
 
