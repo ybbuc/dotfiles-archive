@@ -28,6 +28,15 @@ else
   export EDITOR='nvim'
 fi
 
+# exa after cd
+function list_all() {
+  emulate -L zsh
+  exa
+}
+if [[ ${chpwd_functions[(r)list_all]} != "list_all" ]];then
+  chpwd_functions=(${chpwd_functions[@]} "list_all")
+fi
+
 # Aliases
 alias python='python3'
 alias tx='tmuxinator'
